@@ -1,0 +1,43 @@
+.container {
+  margin: 10px 20px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  & > h2 {
+    margin: 10px 15px;
+    color: #333;
+    opacity: 0.8;
+    font-weight: bold;
+  }
+}
+
+table {
+  margin: 10px 15px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  margin: auto;
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #5148d5;
+  color: white;
+}
+
+tr {
+  opacity: 80%;
+  padding: 12px;
+}
+
+tr:hover {
+  opacity: 100%;
+}
