@@ -30,6 +30,16 @@ import { LoadingComponent } from "../shared/loading/loading.component";
 
       <div class="content">
         @defer (on viewport; prefetch on idle) {
+          <app-posts />
+        } @placeholder {
+          <h2>Posts are loading...</h2>
+        } @loading (minimum 4s) {
+          <app-loading />
+        } @error {
+          <h2>Failed to load Posts</h2>
+        }
+
+        @defer (on viewport; prefetch on idle) {
           <app-comments />
         } @placeholder {
           <h2>Comments are loading...</h2>
