@@ -4,7 +4,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   selector: 'app-header',
   template: `
     <header class="app-header">
-      <h1>My App</h1>
+      <h1>Angular defer - Tutorial</h1>
     </header>
   `,
   styles: `

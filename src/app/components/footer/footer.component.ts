@@ -4,7 +4,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   selector: 'app-footer',
   template: `
     <footer class="app-footer">
-      <h3>&copy; 2025 App</h3>
+      <h3>&copy; Angular defer - Tutorial</h3>
     </footer>
   `,
   styles: `
