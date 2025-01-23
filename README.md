@@ -1,59 +1,39 @@
-# AngularDeferBlockTutorial
+# Angular Defer - Como deixar seu projeto angular mais performático
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.1.
+Repositório do projeto criado no meu canal do youtube sobre o da nova funcionalidade do angular 17, as deferrable views (bloco defer), acesse aqui: [Vídeo](https://youtu.be/6jNW8vU1SVQ)
 
-## Development server
+![Capa](public/thumb.png 'Capa')
 
-To start a local development server, run:
+## Descrição Vídeo
+Nesse vídeo, vamos entender como o bloco defer funciona por baixo dos panos, otimizando o bundle do nosso projeto. Vamos ver também cada um dos acionadores, blocos auxiliares e situações onde podemos otimizar a performance e melhorar a experiência do usuário.
 
-```bash
-ng serve
-```
+## Clonar o projeto
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Clone o repositório
 
 ```bash
-ng generate component component-name
+git clone https://github.com/lucasspeixoto/angular-defer-block-tutorial.git
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Execute
 
 ```bash
-ng generate --help
+# entre na pasta
+cd angular-defer-block-tutorial
+
+# instale as dependências
+npm install
+
+# rode o projeto
+npm start
 ```
 
-## Building
+## Se inscreva no meu canal
 
-To build the project run:
+O [Descomplicando a prática](https://www.youtube.com/channel/UC6LY6Xw5ff_KaHwjHWRA9oA?sub_confirmation=1) tem conteúdo para quem está começando e muito para quem quer elevar o nível e se aprofundar em diversos temas. Falamos de Angular, React, Spring Boot, Javascript, Typescript e Java. 🎯
 
-```bash
-ng build
-```
+Quer elevar seu nível e se destacar onde estiver ? Se inscreva no canal e vamos embarcar nessa juntos 🚀.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## License
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+[MIT](https://choosealicense.com/licenses/mit/)
